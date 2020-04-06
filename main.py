@@ -9,11 +9,11 @@ def getEntireList():
     print "function not ready yet"
 
 def enterUIMode():
-    print "Entering..."
-    from Kivy import App
+    print "Not working yet"
 
 
 while True:
+    # python 2 uses raw_input, but it is a matter of choice, also my laptop is quite old, so using python 2...
     x = raw_input(":")
     try:
         print eval (x)
