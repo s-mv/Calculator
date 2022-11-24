@@ -33,6 +33,7 @@ try:
             break
         # eval
         ans = eval(expr)
+        print('ans is', ans)
         # print
         # but first check for errors
         if (type(ans) == ErrorType):
@@ -41,5 +42,5 @@ try:
             print(ans)
 # dirty hack to remove the pesky exit message
 # I'm no pro python dev, forgive me if this is bad practice
-except KeyboardInterrupt:
+except (KeyboardInterrupt, EOFError):
     print()
