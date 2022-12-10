@@ -33,7 +33,6 @@ try:
             break
         # eval
         ans = eval(expr)
-        print('ans is', ans)
         # print
         # but first check for errors
         if (type(ans) == ErrorType):

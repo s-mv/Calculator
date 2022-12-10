@@ -13,4 +13,7 @@ python3 ./calculator.py # python3 or python if it doesn't work
 Or better (for Linux users):
 ```bash
 chmod +x ./calculator.py # run this only for the first time
-./calculator.py```
+./calculator.py
+```
+
+Or you could just alternatively do `import calculator` (kidding, you can't).
