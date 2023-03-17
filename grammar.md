@@ -1,7 +1,7 @@
 This might not be perfect
 ```
 calculation -> value ("+" | "-" term)*
-term        -> (function | value ("*" | "/" | "%" value)*
+term        -> (function | value ("*" | "/" | "%" value))*
 function    -> identifier\((value | identifier ",")*\)
 value       => (0-9)+(\.(0-9)*)? | identifier
 ```

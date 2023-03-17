@@ -36,7 +36,9 @@ try:
         # print
         # but first check for errors
         if (type(ans) == ErrorType):
-            print('syntax error')
+            match ans:
+                case ErrorType.SYNTAX: 
+                    print('syntax error')                
         else:
             print(ans)
 # dirty hack to remove the pesky exit message
